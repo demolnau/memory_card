@@ -35,8 +35,22 @@
 
 .card {
   padding: 2em;
+  background-color: #61dafbaa;
+}
+.card:hover{
+  background-color: #646cffaa;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.memoryCardGrid{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:repeat(3, 1fr);
+  column-gap: 5px;
+  row-gap: 10px;
 }
